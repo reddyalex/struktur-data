@@ -1,0 +1,8 @@
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\b\MSDN.FSharpExLibrary.Fakes.xml
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\b\MSDN.FSharpExLibrary.Fakes.dll
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\b\MSDN.FSharpExLibrary.Fakes.pdb
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\b\MSDN.FSharpExLibrary.dll
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\o\f.csprojResolveAssemblyReference.cache
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\o\MSDN.FSharpExLibrary.Fakes.dll
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\priorityqueue\obj\Debug\Fakes\msdnfsel\o\MSDN.FSharpExLibrary.Fakes.pdb

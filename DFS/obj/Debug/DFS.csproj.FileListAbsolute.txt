@@ -1,0 +1,4 @@
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\DFS\bin\Debug\DFS.exe
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\DFS\bin\Debug\DFS.pdb
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\DFS\obj\Debug\DFS.exe
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\DFS\obj\Debug\DFS.pdb

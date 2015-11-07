@@ -1,0 +1,5 @@
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\BFS\bin\Debug\BFS.exe
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\BFS\bin\Debug\BFS.pdb
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\BFS\obj\Debug\BFS.csprojResolveAssemblyReference.cache
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\BFS\obj\Debug\BFS.exe
+C:\kuliah\ngajar stts\data structure\s1 malam\minggu 9\BFS\obj\Debug\BFS.pdb

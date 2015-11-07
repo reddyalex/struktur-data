@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSDN.FSharpExLibrary.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MSDN.FSharp.Fakes.ShimPriorityQueue`2">
+            <summary>Shim type of MSDN.FSharp.PriorityQueue`2</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.#ctor(MSDN.FSharp.PriorityQueue{`0,`1})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Bind(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Bind(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.CapacityGet">
+            <summary>Sets the shim of PriorityQueue`2.get_Capacity()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ChangeKeyT0T0">
+            <summary>Sets the shim of PriorityQueue`2.ChangeKey(!0 key, !0 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Clear">
+            <summary>Sets the shim of PriorityQueue`2.Clear()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Constructor">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorFSharpOptionOfIEnumerableOfKeyValuePairOfT0T1Int32IComparerOfT0">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(FSharpOption`1&lt;IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt;&gt; data, Int32 capacity, IComparer`1&lt;!0&gt; comparer)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorIComparerOfT0">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(IComparer`1&lt;!0&gt; comparer)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorIEnumerableOfKeyValuePairOfT0T1IComparerOfT0">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data, IComparer`1&lt;!0&gt; comparer)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorInt32">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(Int32 capacity)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ConstructorInt32IComparerOfT0">
+            <summary>Sets the shim of PriorityQueue`2.PriorityQueue`2(Int32 capacity, IComparer`1&lt;!0&gt; comparer)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ContainsKeyT0">
+            <summary>Sets the shim of PriorityQueue`2.ContainsKey(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ContainsT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Contains(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.CountGet">
+            <summary>Sets the shim of PriorityQueue`2.get_Count()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Dequeue">
+            <summary>Sets the shim of PriorityQueue`2.Dequeue()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.EnqueueT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Enqueue(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.GetValuesT0">
+            <summary>Sets the shim of PriorityQueue`2.GetValues(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.IndexOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.IndexOf(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.IsEmptyGet">
+            <summary>Sets the shim of PriorityQueue`2.get_IsEmpty()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ItemGetInt32">
+            <summary>Sets the shim of PriorityQueue`2.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.ItemSetInt32T1">
+            <summary>Sets the shim of PriorityQueue`2.set_Item(Int32 index, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.MergeIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Merge(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.MergeNoDupIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.MergeNoDup(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.Peek">
+            <summary>Sets the shim of PriorityQueue`2.Peek()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.RemoveAtInt32">
+            <summary>Sets the shim of PriorityQueue`2.RemoveAt(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.RemoveKeyT0">
+            <summary>Sets the shim of PriorityQueue`2.RemoveKey(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1AddKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Add(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1Clear">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Clear()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1ContainsKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Contains(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1CopyToKeyValuePairOfT0T1ArrayInt32">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-CopyTo(KeyValuePair`2&lt;!0,!1&gt;[] toArray, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1RemoveKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Remove(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1get_Count">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-get_Count()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericICollection1get_IsReadOnly">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-get_IsReadOnly()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsGenericIEnumerable1GetEnumerator">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-IEnumerable`1-GetEnumerator()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-IEnumerable-GetEnumerator()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.TrimExcess">
+            <summary>Sets the shim of PriorityQueue`2.TrimExcess()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.checkIndexInt32">
+            <summary>Sets the shim of PriorityQueue`2.checkIndex(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.deleteItemInt32">
+            <summary>Sets the shim of PriorityQueue`2.deleteItem(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.getChildrenInt32">
+            <summary>Sets the shim of PriorityQueue`2.getChildren(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.getParentInt32">
+            <summary>Sets the shim of PriorityQueue`2.getParent(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.heapifyDownInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyDown(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.heapifyUpDownInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyUpDown(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.heapifyUpInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyUp(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.inRangeInt32">
+            <summary>Sets the shim of PriorityQueue`2.inRange(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.insertItemT0T1">
+            <summary>Sets the shim of PriorityQueue`2.insertItem(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.isGreaterInt32Int32">
+            <summary>Sets the shim of PriorityQueue`2.isGreater(Int32 parent, Int32 child)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.mergeNewListIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.mergeNewList(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.mergeNewListNoDupIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.mergeNewListNoDup(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.powerTwoInt32">
+            <summary>Sets the shim of PriorityQueue`2.powerTwo(Int32 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.swapElementsInt32Int32">
+            <summary>Sets the shim of PriorityQueue`2.swapElements(Int32 idx1, Int32 idx2)</summary>
+        </member>
+        <member name="T:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.CapacityGet">
+            <summary>Sets the shim of PriorityQueue`2.get_Capacity()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.ChangeKeyT0T0">
+            <summary>Sets the shim of PriorityQueue`2.ChangeKey(!0 key, !0 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.Clear">
+            <summary>Sets the shim of PriorityQueue`2.Clear()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.ContainsKeyT0">
+            <summary>Sets the shim of PriorityQueue`2.ContainsKey(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.ContainsT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Contains(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.CountGet">
+            <summary>Sets the shim of PriorityQueue`2.get_Count()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.Dequeue">
+            <summary>Sets the shim of PriorityQueue`2.Dequeue()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.EnqueueT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Enqueue(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.GetValuesT0">
+            <summary>Sets the shim of PriorityQueue`2.GetValues(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.IndexOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.IndexOf(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.IsEmptyGet">
+            <summary>Sets the shim of PriorityQueue`2.get_IsEmpty()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.ItemGetInt32">
+            <summary>Sets the shim of PriorityQueue`2.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.ItemSetInt32T1">
+            <summary>Sets the shim of PriorityQueue`2.set_Item(Int32 index, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.MergeIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.Merge(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.MergeNoDupIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.MergeNoDup(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.Peek">
+            <summary>Sets the shim of PriorityQueue`2.Peek()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.RemoveAtInt32">
+            <summary>Sets the shim of PriorityQueue`2.RemoveAt(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.RemoveKeyT0">
+            <summary>Sets the shim of PriorityQueue`2.RemoveKey(!0 key)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1AddKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Add(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1Clear">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Clear()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1ContainsKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Contains(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1CopyToKeyValuePairOfT0T1ArrayInt32">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-CopyTo(KeyValuePair`2&lt;!0,!1&gt;[] toArray, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1RemoveKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-Remove(KeyValuePair`2&lt;!0,!1&gt; item)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1get_Count">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-get_Count()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericICollection1get_IsReadOnly">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-ICollection`1-get_IsReadOnly()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsGenericIEnumerable1GetEnumerator">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-Generic-IEnumerable`1-GetEnumerator()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of PriorityQueue`2.System-Collections-IEnumerable-GetEnumerator()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.TrimExcess">
+            <summary>Sets the shim of PriorityQueue`2.TrimExcess()</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.checkIndexInt32">
+            <summary>Sets the shim of PriorityQueue`2.checkIndex(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.deleteItemInt32">
+            <summary>Sets the shim of PriorityQueue`2.deleteItem(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.getChildrenInt32">
+            <summary>Sets the shim of PriorityQueue`2.getChildren(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.getParentInt32">
+            <summary>Sets the shim of PriorityQueue`2.getParent(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.heapifyDownInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyDown(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.heapifyUpDownInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyUpDown(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.heapifyUpInt32">
+            <summary>Sets the shim of PriorityQueue`2.heapifyUp(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.inRangeInt32">
+            <summary>Sets the shim of PriorityQueue`2.inRange(Int32 index)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.insertItemT0T1">
+            <summary>Sets the shim of PriorityQueue`2.insertItem(!0 key, !1 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.isGreaterInt32Int32">
+            <summary>Sets the shim of PriorityQueue`2.isGreater(Int32 parent, Int32 child)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.mergeNewListIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.mergeNewList(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.mergeNewListNoDupIEnumerableOfKeyValuePairOfT0T1">
+            <summary>Sets the shim of PriorityQueue`2.mergeNewListNoDup(IEnumerable`1&lt;KeyValuePair`2&lt;!0,!1&gt;&gt; data)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.powerTwoInt32">
+            <summary>Sets the shim of PriorityQueue`2.powerTwo(Int32 value)</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.ShimPriorityQueue`2.AllInstances.swapElementsInt32Int32">
+            <summary>Sets the shim of PriorityQueue`2.swapElements(Int32 idx1, Int32 idx2)</summary>
+        </member>
+        <member name="T:MSDN.FSharp.Fakes.StubPriorityQueue`2">
+            <summary>Stub type of MSDN.FSharp.PriorityQueue`2</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor(System.Collections.Generic.IComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor(System.Int32,System.Collections.Generic.IComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSDN.FSharp.Fakes.StubPriorityQueue`2.InitializeStub">
+            <summary>Initializes a new instance of type StubPriorityQueue</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.StubPriorityQueue`2.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.StubPriorityQueue`2.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MSDN.FSharp.Fakes.StubPriorityQueue`2.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
